@@ -28,7 +28,7 @@ if [ -d "$WS_DIR" ]; then # if it exists,delete it.
     rm -rf "$WS_DIR"
 fi
 mkdir "$WS_DIR"
-echo "Configurando servidor..."
+echo "Configurando el servidor..."
 sleep 0.5
 echo "# verbose level 0=info, 1=verbose, 2=very verbose" >> /usr/local/etc/ws-epro/config.yml
 echo "verbose: 0" >> /usr/local/etc/ws-epro/config.yml
@@ -48,7 +48,7 @@ chmod +x /usr/local/etc/ws-epro/config.yml
 systemctl enable ws-epro
 systemctl start ws-epro
 
-echo "Configurando su puerto Websocket Pro..."
+echo "Configurando puertos Websocket Pro..."
 sleep 0.3
 clear
 LP='\033[1;35m'
