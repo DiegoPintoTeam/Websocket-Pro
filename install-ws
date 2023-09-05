@@ -54,11 +54,11 @@ clear
 LP='\033[1;35m'
 NC='\033[0m' # No Color
 echo -e "${LP}"
-echo    "Script"
+echo    "Script Websocket Pro"
 
 echo    "═══════════════════════════════"
-echo          "Creditos @By_mi_telegram"
-echo    "         Diego Pinto (Team)         "
+echo    "      Creditos @By_mi_telegram       "
+echo    "         Diego Pinto (Team)          "
 echo    "═══════════════════════════════"
 echo    "     Puerto Local SSH: $openssh"
 echo    "     Puerto Python: $wsopenssh"
