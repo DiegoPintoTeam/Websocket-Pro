@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 pkill -f ws-epro
-echo Instalando Websocket Pro
+echo Se instalará Python Websocket Pro
 sleep 1
 cd
 
@@ -64,13 +64,10 @@ echo    "     Puerto Local SSH: $openssh"
 echo    "     Puerto Python: $wsopenssh"
 echo    "╚═════════════════════════════╝"
 echo    ""
-echo    "Websocket sin plan cloudfared pro"
-echo    "---------------------------------------"
+echo    "Websocket pro sin plan cloudfared.   "
+echo    "-------------------------------------"
 echo    ""
-echo    "Cambiar puerto use comando: ws-port"
-echo    "---------------------------------------"
-echo    ""
-echo    "GET / HTTP/1.1[crlf]Host:Su Dominio[crlf]Upgrade: websocket[crlf][crlf]"
-echo    "---------------------------------------"
+echo    "Cambiar puerto use comando: [ws-port]"
+echo    "-------------------------------------"
 echo -e "${NC}"
 rm -rf install-ws && cat /dev/null > ~/.bash_history && history -c
