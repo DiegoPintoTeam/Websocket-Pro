@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 pkill -f ws-epro
-echo INSTALANDO PHYTON NUEVO
+echo Instalando Python Websocket Pro
 sleep 1
 cd
 
@@ -19,16 +19,16 @@ chmod +x /usr/bin/ws-port
 
 #seting port
 clear
-echo SELECCIONE PUERTOS
+echo Seleccione los puertos
 sleep 1
-read -p "PUERTO LOCAL : " openssh
-read -p "PUERTO PHYTON : " wsopenssh
+read -p "Puerto Local : " openssh
+read -p "Puerto Python : " wsopenssh
 WS_DIR=/usr/local/etc/ws-epro
 if [ -d "$WS_DIR" ]; then # if it exists,delete it.
     rm -rf "$WS_DIR"
 fi
 mkdir "$WS_DIR"
-echo "CONFIGURANDO SERVIDOR ESPERE..."
+echo "Configurando el servidor..."
 sleep 0.5
 echo "# verbose level 0=info, 1=verbose, 2=very verbose" >> /usr/local/etc/ws-epro/config.yml
 echo "verbose: 0" >> /usr/local/etc/ws-epro/config.yml
@@ -48,29 +48,26 @@ chmod +x /usr/local/etc/ws-epro/config.yml
 systemctl enable ws-epro
 systemctl start ws-epro
 
-echo "CONFIGURE SU SERVIDOR WEBSOCKET PRO..."
+echo "Configurando puertos Websocket Pro..."
 sleep 0.3
 clear
 LP='\033[1;35m'
 NC='\033[0m' # No Color
 echo -e "${LP}"
-echo    "Diego Pinto (Team)"
+echo    "Script Websocket Pro"
 
-echo    "SCRIPT WEBSOCKET CLOUDFLARE SIN PRO E-PRO"
-echo    "Creditos A: Diego Pinto (Team)"
-echo    "════☆☆☆😎☆☆☆════"
-echo    "╔════════════════════╗"
-echo    "   Puerto Local SSH: $openssh"
-echo    "   Puerto Phyton: $wsopenssh"
-echo    "╚════════════════════╝"
+echo    "═══════════════════════════════"
+echo    "      Creditos @By_mi_telegram       "
+echo    "         Diego Pinto (Team)          "
+echo    "═══════════════════════════════"
+echo    "     Puerto Local SSH: $openssh"
+echo    "     Puerto Python: $wsopenssh"
+echo    "═══════════════════════════════"
 echo    ""
-echo    "WEBSOCKET SIN SER PLAN PRO CLOUDFLARE"
-echo    "---------------------------------------"
+echo    "Websocket pro sin plan cloudfared.   "
+echo    "-------------------------------------"
 echo    ""
-echo    "PARA CAMBIAR DE PUERTO USE COMANDO: ws-port"
-echo    "---------------------------------------"
-echo    ""
-echo    "GET / HTTP/1.1[crlf]Host: Dominio[crlf]Upgrade: websocket[crlf][crlf]"
-echo    "---------------------------------------"
+echo    "Cambiar puerto use comando: [ws-port]"
+echo    "-------------------------------------"
 echo -e "${NC}"
 rm -rf install-ws && cat /dev/null > ~/.bash_history && history -c
