@@ -54,11 +54,11 @@ clear
 LP='\033[1;35m'
 NC='\033[0m' # No Color
 echo -e "${LP}"
-echo    "
-Diego Pinto (Team)
+echo    "Diego Pinto (Team)"
+
 echo    "SCRIPT WEBSOCKET CLOUDFLARE SIN PRO E-PRO"
-echo    "Creditos A : @By_Mi_Telegram"
-echo    "════☆☆☆☆☆════"
+echo    "Creditos A: Diego Pinto (Team)"
+echo    "════☆☆☆😎☆☆☆════"
 echo    "╔════════════════════╗"
 echo    "   Puerto Local SSH: $openssh"
 echo    "   Puerto Phyton: $wsopenssh"
