@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 pkill -f ws-epro
-echo Se instalará Python Websocket Pro
+echo Instalando Python Websocket Pro
 sleep 1
 cd
 
@@ -56,13 +56,13 @@ NC='\033[0m' # No Color
 echo -e "${LP}"
 echo    "Script"
 
-echo    "╔═════════════════════════════╗"
+echo    "═══════════════════════════════"
 echo          "Creditos @By_mi_telegram"
-echo    "       ☆ Diego Pinto (Team) ☆       "
-echo    "╔═════════════════════════════╗"
+echo    "         Diego Pinto (Team)         "
+echo    "═══════════════════════════════"
 echo    "     Puerto Local SSH: $openssh"
 echo    "     Puerto Python: $wsopenssh"
-echo    "╚═════════════════════════════╝"
+echo    "═══════════════════════════════"
 echo    ""
 echo    "Websocket pro sin plan cloudfared.   "
 echo    "-------------------------------------"
