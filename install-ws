@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 pkill -f ws-epro
-echo Instalando phyton nuevo
+echo Instalando Websocket Pro
 sleep 1
 cd
 
@@ -22,7 +22,7 @@ clear
 echo Seleccione los puertos
 sleep 1
 read -p "Puerto Local : " openssh
-read -p "Puerto Phyton : " wsopenssh
+read -p "Puerto Python : " wsopenssh
 WS_DIR=/usr/local/etc/ws-epro
 if [ -d "$WS_DIR" ]; then # if it exists,delete it.
     rm -rf "$WS_DIR"
@@ -48,7 +48,7 @@ chmod +x /usr/local/etc/ws-epro/config.yml
 systemctl enable ws-epro
 systemctl start ws-epro
 
-echo "Configurando su puerto Websocket pro..."
+echo "Configurando su puerto Websocket Pro..."
 sleep 0.3
 clear
 LP='\033[1;35m'
