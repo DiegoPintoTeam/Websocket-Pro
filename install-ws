@@ -54,9 +54,9 @@ clear
 LP='\033[1;35m'
 NC='\033[0m' # No Color
 echo -e "${LP}"
-echo    "Diego Pinto (Team)"
+echo    "Script"
 
-echo    "Script Websocket Pro"
+echo    "Websocket Pro"
 echo    "Creditos @By_mi_telegram"
 echo    "☆●☆●☆●☆ Diego Pinto (Team) ☆●☆●☆●☆"
 echo    "╔═════════════════════════════╗"
