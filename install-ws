@@ -54,17 +54,11 @@ clear
 LP='\033[1;35m'
 NC='\033[0m' # No Color
 echo -e "${LP}"
-echo    "
-░██╗░░░░░░░██╗░██████╗░░░░░░██████╗░██████╗░░█████╗░
-░██║░░██╗░░██║██╔════╝░░░░░░██╔══██╗██╔══██╗██╔══██╗
-░╚██╗████╗██╔╝╚█████╗░█████╗██████╔╝██████╔╝██║░░██║
-░░████╔═████║░░╚═══██╗╚════╝██╔═══╝░██╔══██╗██║░░██║
-░░╚██╔╝░╚██╔╝░██████╔╝░░░░░░██║░░░░░██║░░██║╚█████╔╝
-░░░╚═╝░░░╚═╝░░╚═════╝░░░░░░░╚═╝░░░░░╚═╝░░╚═╝░╚════╝░"
+echo    "Diego Pinto (Team)"
 
-echo    "💙SCRIPT WEBSOCKET CLOUDFLARE SIN PRO E-PRO💙"
-echo    "Creditos A : @THEFATHER12"
-echo    "════💙🧑🏽‍💻EDITADO POR THEFATHER12🧑🏽‍💻💙════"
+echo    "SCRIPT WEBSOCKET CLOUDFLARE SIN PRO E-PRO"
+echo    "Creditos A : Diego Pinto (Team)"
+echo    "════☆☆☆☆☆☆════"
 echo    "╔════════════════════╗"
 echo    "   Puerto Local SSH: $openssh"
 echo    "   Puerto Phyton: $wsopenssh"
